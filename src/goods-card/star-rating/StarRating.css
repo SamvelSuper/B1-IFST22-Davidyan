@@ -1,0 +1,22 @@
+.star-rating {
+    display: inline-block;
+    font-size: 0;
+}
+
+.star-rating span {
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.star-filled {
+    color: rgb(255, 196, 0);
+}
+
+.star-empty {
+    color: gray;
+}
+
+.star-rating span:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}

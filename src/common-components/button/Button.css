@@ -1,0 +1,17 @@
+.basic-button {
+  background-color: #b57d7d;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+  font-family: Georgia, serif;
+}
+
+.basic-button:hover {
+  background-color: #f1ee0c;
+}

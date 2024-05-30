@@ -1,0 +1,21 @@
+header {
+  display: grid;
+  grid-template-columns: 8fr 1fr;
+  grid-template-rows: 1fr;
+  margin-bottom: 100px;
+  padding-left: 50px;
+  border-radius: 100px;
+  background-color: #d9d9d9;
+  font-size: 24px;
+  font-weight: bolder;
+  font-family: Georgia, serif;
+  color: blue;
+}
+
+.header-img {
+  cursor: pointer;
+}
+
+.header-p {
+  cursor: pointer;
+}

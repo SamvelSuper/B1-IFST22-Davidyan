@@ -1,0 +1,33 @@
+.goods-card {
+    display: block;
+    background-color: #FFC0CB;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    padding: 60px;
+    width: 92%;
+    height: 100%;
+    font-family: Georgia, serif;
+}
+
+.general-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.name-price {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}

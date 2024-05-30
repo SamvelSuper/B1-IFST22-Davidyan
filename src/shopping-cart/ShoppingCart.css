@@ -1,0 +1,36 @@
+.shopping-cart-page {
+    padding-left: 50px;
+}
+
+.shopping-cart-page-info {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.good-counter {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 100px;
+    height: 50px;
+    font-family: 'Montserrat';
+}
+
+.good-counter button {
+    height: 50px;
+    font-size: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.good-counter p {
+    margin: 0px;
+    height: 50px;
+    font-size: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}

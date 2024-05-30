@@ -1,0 +1,20 @@
+.image-button {
+    width: 150px;
+    height: 160px;
+    border-radius: 10px;
+    padding: 0;
+    border: none;
+    background: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-button img {
+    width: auto;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-0%, -50%);
+    cursor: pointer;
+}
